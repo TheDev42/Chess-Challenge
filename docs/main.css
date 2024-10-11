@@ -1,0 +1,169 @@
+
+
+* {
+	margin:0px;
+	padding:0px;
+        color:#39f539;
+}
+
+body {
+	background:black;
+}
+
+a {
+	color:hotpink;
+}
+
+#main{
+	position:relative;
+	top:0px;
+	left:10%;
+	width:80%;
+	height:80%;
+	margin-bottom:20px;
+	color:green;
+	font-size:200%;
+	font-family:Monospace;
+	text-align:center;
+	
+}
+#scoreboard{
+	font-size:100%;
+	font-family:Monospace;
+	position:relative;
+	width:80%;	
+	left:10%;
+	margin-top:20px;
+	
+}
+tr:nth-child(1){background-color:#101010;}
+tr:nth-child(even){background-color:#202020;}
+#logo-spash{
+	position:relative;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	height:300px;
+	width:auto;
+}
+#logo-big{
+	position:relative;
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	height:150px;
+	width:auto;	
+}
+.cipher{
+  position:relative;
+  top:10px;
+  left:10%;
+  width:80%;
+  color:#808080;
+  font-family:Monospace;
+  text-align:center;
+}
+.cipherimg{
+	max-width:60%;
+	max-height:60vh;
+}
+#footer{
+	font-size:80%;
+}
+.solution{
+	color:red;
+	display:inline;
+}
+
+.starmap{
+	font-size:60%;
+}
+
+#glogin{
+	position:absolute;
+	top:5%;
+	right:10%;
+}
+.g-signin2{
+float:left;
+}
+#userimgcontainer{
+display:block;
+float:left;
+}
+#userimg{
+	position:relative;
+	float:left;
+	max-height:37;
+	max-width:auto;
+}
+#cipherinput{
+	position:relative;
+	width:100%;
+	min-height:40px;
+	font-family:monospace;
+}
+
+#ouput{
+	position:relative;
+	width:100%;
+	background:#00FF00;
+}
+
+#output table{
+	color:green;
+	position:relative;
+	width:100%;
+	table-layout: fixed;
+}
+#output table th, td{
+	padding:10px;
+	word-wrap: break-word;
+}
+#output table .even_row{
+	background:#111111;
+}
+#page_div{
+	float:right;
+	font-size:50%;
+}
+#about{
+	font-size:80%;
+	margin:40px;
+
+
+}
+.button{
+	margin:5px;
+	padding:5px;
+	width:20%;
+	color:green;
+	background:black;
+	border-color:green;
+	border:dashed;
+}
+.button:hover{
+	color:red;
+	border-color:red;
+	cursor:pointer;
+
+}
+
+#error{
+	color:red;
+	width:100%;
+	font-size:80%;
+	font-family:monospace;
+}
+#ticker{
+	position:fixed;
+	width:auto;
+	bottom:0;
+	height:32px;
+	overflow:clip;
+	white-space:nowrap;
+	background-color:#000;
+	color:#008000;
+	left:100%;
+	text-align:left;
+}
